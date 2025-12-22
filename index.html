@@ -21,13 +21,13 @@
         }
         .page-break {
             page-break-after: always;
-            min-height: 85vh;
+            min-height: 80vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             position: relative;
             overflow: hidden;
-            padding: 2rem 0;
+            padding: 1rem 0;
         }
         @media print {
             * {
@@ -189,18 +189,122 @@
                 Acelere seu funil de vendas com atendimento inteligente e escala ilimitada.
             </p>
             
-            <div class="mt-16 pt-6 border-t border-slate-800 text-slate-500 text-sm tracking-[0.3em] uppercase font-bold">
+            <div class="mt-12 pt-4 border-t border-slate-800 text-slate-500 text-sm tracking-[0.3em] uppercase font-bold">
                 Aprensentação Comercial • 2026
             </div>
         </div>
     </section>
 
-    <!-- SLIDE 2: O CENÁRIO -->
-    <section class="page-break px-12 py-8">
+    <!-- SLIDE 2: INTERFACE DO SISTEMA -->
+    <section class="page-break px-12 py-6 bg-slate-900">
+        <div class="bg-grid"></div>
+        <div class="max-w-7xl mx-auto">
+            <!-- Título da Seção -->
+            <div class="text-center mb-8">
+                <span class="text-teal-500 font-extrabold uppercase tracking-widest text-sm">Interface Profissional</span>
+                <h2 class="text-4xl font-black mt-3 mb-4 leading-tight italic">Gestão completa em uma única tela.</h2>
+                <p class="text-slate-400 text-lg max-w-3xl mx-auto">Centralize todas as conversas, automatize respostas e acompanhe métricas em tempo real.</p>
+            </div>
+
+            <!-- Imagem do Sistema - Largura Total -->
+            <div class="relative mb-10">
+                <div class="glass-card p-4 shadow-2xl overflow-hidden border-teal-500/30 border">
+                    <img src="conversas.png" alt="Interface WhatsUp Leads - Sistema Completo" class="rounded-xl w-full opacity-95">
+                </div>
+                <div class="absolute -top-3 -right-3 bg-teal-500 text-slate-950 font-black px-4 py-1 rounded-full text-xs uppercase shadow-lg">
+                    Sistema Real
+                </div>
+            </div>
+
+            <!-- Grid de Funcionalidades -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Conta/Dashboard -->
+                <div class="glass-card p-5 border-l-4 border-teal-500">
+                    <div class="flex items-start gap-3">
+                        <div class="text-teal-500 bg-teal-500/10 p-2 rounded-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base text-white mb-1">Dashboard Inteligente</h4>
+                            <p class="text-slate-400 text-xs">Visão geral completa com métricas de conversão, leads ativos e performance em tempo real.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agentes -->
+                <div class="glass-card p-5 border-l-4 border-teal-500">
+                    <div class="flex items-start gap-3">
+                        <div class="text-teal-500 bg-teal-500/10 p-2 rounded-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base text-white mb-1">Gestão de Agentes</h4>
+                            <p class="text-slate-400 text-xs">Controle total da equipe: status online, distribuição de leads e produtividade individual.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Times -->
+                <div class="glass-card p-5 border-l-4 border-teal-500">
+                    <div class="flex items-start gap-3">
+                        <div class="text-teal-500 bg-teal-500/10 p-2 rounded-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base text-white mb-1">Organização por Times</h4>
+                            <p class="text-slate-400 text-xs">Divida sua equipe em departamentos especializados para atendimento mais eficiente.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Caixas de Entrada -->
+                <div class="glass-card p-5 border-l-4 border-teal-500">
+                    <div class="flex items-start gap-3">
+                        <div class="text-teal-500 bg-teal-500/10 p-2 rounded-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base text-white mb-1">Múltiplas Caixas de Entrada</h4>
+                            <p class="text-slate-400 text-xs">Organize conversas por canal, produto ou campanha para melhor segmentação.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Etiquetas -->
+                <div class="glass-card p-5 border-l-4 border-teal-500">
+                    <div class="flex items-start gap-3">
+                        <div class="text-teal-500 bg-teal-500/10 p-2 rounded-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base text-white mb-1">Sistema de Etiquetas</h4>
+                            <p class="text-slate-400 text-xs">Classifique leads automaticamente: quente, frio, interessado, orçamento, etc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automação -->
+                <div class="glass-card p-5 border-l-4 border-teal-500">
+                    <div class="flex items-start gap-3">
+                        <div class="text-teal-500 bg-teal-500/10 p-2 rounded-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base text-white mb-1">Automação Inteligente</h4>
+                            <p class="text-slate-400 text-xs">Fluxos automatizados que qualificam leads e direcionam para o vendedor certo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 3: O CENÁRIO -->
+    <section class="page-break px-12 py-6">
         <div class="bg-grid"></div>
         <img src="WhatsUpLeads.jpg" alt="" class="logo-watermark">
         
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
                 <span class="text-teal-500 font-extrabold uppercase tracking-widest text-sm">Oportunidade</span>
                 <h2 class="text-5xl font-black mt-4 mb-8 leading-tight italic">Não deixe seu cliente esperando.</h2>
@@ -227,15 +331,15 @@
         </div>
     </section>
 
-    <!-- SLIDE 3: DIFERENCIAIS TÉCNICOS -->
-    <section class="page-break px-12 bg-slate-900 py-8">
+    <!-- SLIDE 4: DIFERENCIAIS TÉCNICOS -->
+    <section class="page-break px-12 bg-slate-900 py-6">
         <div class="max-w-6xl mx-auto">
-            <div class="mb-12">
+            <div class="mb-10">
                 <h2 class="text-4xl font-black italic tracking-tighter uppercase mb-2">Estrutura de Alta Performance</h2>
                 <p class="text-teal-500 font-bold">Tecnologia proprietária e segura para o seu negócio.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="glass-card p-8 border-b-4 border-teal-500">
                     <div class="text-teal-500 mb-4">
                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
@@ -261,12 +365,12 @@
         </div>
     </section>
 
-    <!-- SLIDE 4: PLANOS -->
-    <section class="page-break px-12 py-8">
+    <!-- SLIDE 5: PLANOS -->
+    <section class="page-break px-12 py-6">
         <div class="bg-grid"></div>
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-black text-center mb-12 italic tracking-tight">Investimento em Crescimento</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <h2 class="text-4xl font-black text-center mb-10 italic tracking-tight">Investimento em Crescimento</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Starter -->
                 <div class="glass-card p-10 flex flex-col hover:border-teal-500/30 transition-all">
                     <div class="text-teal-500 font-black text-sm uppercase mb-4 tracking-widest">Plano Starter</div>
@@ -285,7 +389,7 @@
                     <div class="text-5xl font-black mb-8 italic text-white">R$ 890<span class="text-lg text-slate-500">/mês</span></div>
                     <ul class="space-y-4 text-slate-200 text-sm flex-grow">
                         <li class="flex items-center gap-2 font-bold"><span>✅</span> 01 Conexão Oficial Inclusa</li>
-                        <li class="flex items-center gap-2"><span>✅</span> 03 Conexões Diretas</li>
+                        <li class="flex items-center gap-2"><span>✅</span> 03 Conexões Web</li>
                         <li class="flex items-center gap-2 font-bold text-teal-400"><span>✅</span> 05 Fluxos Avançados</li>
                         <li class="flex items-center gap-2"><span>✅</span> Suporte Prioritário</li>
                     </ul>
@@ -294,22 +398,24 @@
                 <!-- Enterprise -->
                 <div class="glass-card p-10 flex flex-col">
                     <div class="text-teal-500 font-black text-sm uppercase mb-4 tracking-widest">Enterprise</div>
-                    <div class="text-5xl font-black mb-8 italic">R$ 2.490<span class="text-lg text-slate-500">/mês</span></div>
+                    <div class="text-5xl font-black mb-8 italic">R$ 1.990<span class="text-lg text-slate-500">/mês</span></div>
                     <ul class="space-y-4 text-slate-400 text-sm flex-grow">
                         <li class="flex items-center gap-2 font-semibold text-slate-200"><span>✅</span> 02 Conexões Oficiais Inclusas</li>
-                        <li class="flex items-center gap-2"><span>✅</span> 10 Conexões Diretas</li>
+                        <li class="flex items-center gap-2"><span>✅</span> 10 Conexões Web</li>
+                        <li class="flex items-center gap-2"><span>✅</span> Fluxos Avançados Ilimitados</li>
                         <li class="flex items-center gap-2"><span>✅</span> IA e Automação Customizada</li>
+                        <li class="flex items-center gap-2"><span>✅</span> Suporte Prioritário</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SLIDE 5: BÔNUS IMPLEMENTAÇÃO (TRIÂNGULO REMOVIDO) -->
-    <section class="page-break px-12 bg-slate-950 py-8">
+    <!-- SLIDE 6: BÔNUS IMPLEMENTAÇÃO (TRIÂNGULO REMOVIDO) -->
+    <section class="page-break px-12 bg-slate-950 py-6">
         <div class="bg-grid"></div>
         <div class="max-w-4xl mx-auto">
-            <div class="gradient-bg p-10 rounded-[2.5rem] text-white shadow-[0_20px_50px_rgba(20,184,166,0.3)] relative">
+            <div class="gradient-bg p-8 rounded-[2.5rem] text-white shadow-[0_20px_50px_rgba(20,184,166,0.3)] relative">
                 <div class="relative z-10">
                     <span class="bg-white/20 text-white text-xs font-bold px-4 py-1 rounded-full uppercase mb-6 inline-block">Bónus Exclusivo</span>
                     <h3 class="text-5xl font-black uppercase mb-4 tracking-tighter italic leading-none">Implementação Grátis</h3>
@@ -325,7 +431,7 @@
                 </div>
             </div>
             
-            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="glass-card p-6 text-center">
                     <p class="text-slate-500 text-[10px] font-bold uppercase mb-1">Conexão Extra (Oficial)</p>
                     <p class="text-2xl font-black text-white italic">R$ 150,00 <span class="text-xs font-normal text-teal-500">/mês</span></p>
@@ -338,14 +444,14 @@
         </div>
     </section>
 
-    <!-- SLIDE 6: CONTATO REFORMULADO -->
+    <!-- SLIDE 7: CONTATO REFORMULADO -->
     <section class="page-break bg-slate-950 items-center">
         <div class="bg-grid"></div>
         <div class="hero-glow bottom-0 right-0"></div>
         
         <div class="max-w-5xl mx-auto text-center px-8 z-10">
-            <img src="WhatsUpLeads.png" alt="Logo Final" class="h-20 mx-auto mb-8 drop-shadow-[0_0_15px_rgba(20,184,166,0.2)]">
-            <h2 class="text-5xl font-black mb-10 italic tracking-tighter leading-none">A sua empresa no <span class="text-teal-500">próximo nível</span>.</h2>
+            <img src="WhatsUpLeads.png" alt="Logo Final" class="h-16 mx-auto mb-6 drop-shadow-[0_0_15px_rgba(20,184,166,0.2)]">
+            <h2 class="text-4xl font-black mb-8 italic tracking-tighter leading-none">A sua empresa no <span class="text-teal-500">próximo nível</span>.</h2>
             
             <!-- Grid de Contacto Corrigido -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
@@ -377,7 +483,7 @@
                 </div>
             </div>
 
-            <div class="mt-16">
+            <div class="mt-12">
                 <p class="text-[10px] tracking-[0.4em] text-slate-600 uppercase font-black">WhatsUp Leads • Tecnologia FigCodes</p>
             </div>
         </div>
